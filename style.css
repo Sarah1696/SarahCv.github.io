@@ -17,6 +17,7 @@ main{
 .lateral{
     background-color: #D287ED ;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0 15px 15px 0;
 }
 
 h2{
@@ -51,5 +52,5 @@ h2{
 footer{
     text-align: center;
     padding: 1%;
-    margin: 1%;
+    font-size: 1.5em;
 }
