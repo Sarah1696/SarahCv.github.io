@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    min-width: 440px;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 0.4fr 1.5fr;
+}
+
+.lateral{
+    background-color: #D287ED ;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    text-align: center;
+}
+
+.centre{
+    margin-left: 2%;
+}
+
+.centre > h2 {
+    text-align: left;
+}
+
+.s-avoir-etre, .centres-d-interet, .langues{
+    margin-left: 1em;
+    margin-top: 70px;
+}
+
+.coordonnees {
+    margin-left: 1em;
+}
+
+.metier{
+    font-weight: bold;
+}
+
+.date{
+    color:#B400F5;
+}
+
+footer{
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+}
